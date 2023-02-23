@@ -1,0 +1,518 @@
+{
+    "@graph": [
+        {
+            "hasPropertyBundle": [
+                {
+                    "filePath": "C:/Users/berry/Documents/Digital Forensics Summative Assessment/autopsy.db",
+                    "isDirectory": false,
+                    "@type": "File"
+                }
+            ],
+            "@id": "_:case-autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "filePath": "Phone Images",
+                    "@type": "File"
+                },
+                {
+                    "sizeInBytes": 0,
+                    "hash": [],
+                    "@type": "ContentData"
+                }
+            ],
+            "@id": "_:content-1_autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "source": "_:content-1_autopsy.db",
+            "target": "_:case-autopsy.db",
+            "kindOfRelationship": "contained-within",
+            "isDirectional": true,
+            "@id": "_:34e29866-1004-4e33-96c8-c39e34505371",
+            "@type": "Relationship"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "fullValue": "PortableCaseFiles\\Image\\25-1615145445202.jpg",
+                    "@type": "URL"
+                }
+            ],
+            "@id": "_:0e188960-0734-4b4c-9155-f8cb27b20455",
+            "@type": "Trace"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "sizeInBytes": 27023,
+                    "mimeType": "image/jpeg",
+                    "hash": [
+                        {
+                            "hashMethod": "MD5",
+                            "hashValue": "6572d58959fb511bb1b1163d0c7c344b",
+                            "@type": "Hash"
+                        }
+                    ],
+                    "dataPayloadReferenceUrl": "_:0e188960-0734-4b4c-9155-f8cb27b20455",
+                    "@type": "ContentData"
+                },
+                {
+                    "accessedTime": "1970-01-01T00:00Z",
+                    "extension": "jpg",
+                    "fileName": "1615145445202.jpg",
+                    "filePath": "/Phone Images/s_d_QqSJlTpa0coF_LyNUMOHGfO76TFJ_-Phone Image/Phone Image/AdvancedLogical 01/Images/1615145445202.jpg",
+                    "isDirectory": false,
+                    "sizeInBytes": 27023,
+                    "@type": "File",
+                    "createdTime": "1970-01-01T00:00Z",
+                    "modifiedTime": "1970-01-01T00:00Z"
+                }
+            ],
+            "@id": "_:content-25_autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "source": "_:content-25_autopsy.db",
+            "target": "_:content-1_autopsy.db",
+            "kindOfRelationship": "contained-within",
+            "isDirectional": true,
+            "@id": "_:18c06b17-359e-4613-8c3e-ffa2e5bc0a9a",
+            "@type": "Relationship"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "fullValue": "PortableCaseFiles\\Image\\18-1614890234598.jpg",
+                    "@type": "URL"
+                }
+            ],
+            "@id": "_:d1b8e7a5-4d72-41ea-969f-01c78475628b",
+            "@type": "Trace"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "sizeInBytes": 26059,
+                    "mimeType": "image/jpeg",
+                    "hash": [
+                        {
+                            "hashMethod": "MD5",
+                            "hashValue": "d7d7239a7118d5b8c79c560f8d5214d7",
+                            "@type": "Hash"
+                        }
+                    ],
+                    "dataPayloadReferenceUrl": "_:d1b8e7a5-4d72-41ea-969f-01c78475628b",
+                    "@type": "ContentData"
+                },
+                {
+                    "accessedTime": "1970-01-01T00:00Z",
+                    "extension": "jpg",
+                    "fileName": "1614890234598.jpg",
+                    "filePath": "/Phone Images/s_d_QqSJlTpa0coF_LyNUMOHGfO76TFJ_-Phone Image/Phone Image/AdvancedLogical 01/Images/1614890234598.jpg",
+                    "isDirectory": false,
+                    "sizeInBytes": 26059,
+                    "@type": "File",
+                    "createdTime": "1970-01-01T00:00Z",
+                    "modifiedTime": "1970-01-01T00:00Z"
+                }
+            ],
+            "@id": "_:content-18_autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "source": "_:content-18_autopsy.db",
+            "target": "_:content-1_autopsy.db",
+            "kindOfRelationship": "contained-within",
+            "isDirectional": true,
+            "@id": "_:4608de99-6a3f-4e8a-9d0e-73edd900671e",
+            "@type": "Relationship"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "fullValue": "PortableCaseFiles\\Image\\27-1615145730596.jpg",
+                    "@type": "URL"
+                }
+            ],
+            "@id": "_:c36c0d10-60c0-4b04-b629-f54133249d1b",
+            "@type": "Trace"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "sizeInBytes": 23691,
+                    "mimeType": "image/jpeg",
+                    "hash": [
+                        {
+                            "hashMethod": "MD5",
+                            "hashValue": "1ac925a64d0d9c941736d78db59e287f",
+                            "@type": "Hash"
+                        }
+                    ],
+                    "dataPayloadReferenceUrl": "_:c36c0d10-60c0-4b04-b629-f54133249d1b",
+                    "@type": "ContentData"
+                },
+                {
+                    "accessedTime": "1970-01-01T00:00Z",
+                    "extension": "jpg",
+                    "fileName": "1615145730596.jpg",
+                    "filePath": "/Phone Images/s_d_QqSJlTpa0coF_LyNUMOHGfO76TFJ_-Phone Image/Phone Image/AdvancedLogical 01/Images/1615145730596.jpg",
+                    "isDirectory": false,
+                    "sizeInBytes": 23691,
+                    "@type": "File",
+                    "createdTime": "1970-01-01T00:00Z",
+                    "modifiedTime": "1970-01-01T00:00Z"
+                }
+            ],
+            "@id": "_:content-27_autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "source": "_:content-27_autopsy.db",
+            "target": "_:content-1_autopsy.db",
+            "kindOfRelationship": "contained-within",
+            "isDirectional": true,
+            "@id": "_:2e07842b-40c0-4474-9d4b-d86990b0221c",
+            "@type": "Relationship"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "fullValue": "PortableCaseFiles\\Image\\20-1614891557950.jpg",
+                    "@type": "URL"
+                }
+            ],
+            "@id": "_:70dd4d51-fa44-4cfb-9ebb-6f0f42bfbbbc",
+            "@type": "Trace"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "sizeInBytes": 48279,
+                    "mimeType": "image/jpeg",
+                    "hash": [
+                        {
+                            "hashMethod": "MD5",
+                            "hashValue": "30f233bbc35883156142e477354811d5",
+                            "@type": "Hash"
+                        }
+                    ],
+                    "dataPayloadReferenceUrl": "_:70dd4d51-fa44-4cfb-9ebb-6f0f42bfbbbc",
+                    "@type": "ContentData"
+                },
+                {
+                    "accessedTime": "1970-01-01T00:00Z",
+                    "extension": "jpg",
+                    "fileName": "1614891557950.jpg",
+                    "filePath": "/Phone Images/s_d_QqSJlTpa0coF_LyNUMOHGfO76TFJ_-Phone Image/Phone Image/AdvancedLogical 01/Images/1614891557950.jpg",
+                    "isDirectory": false,
+                    "sizeInBytes": 48279,
+                    "@type": "File",
+                    "createdTime": "1970-01-01T00:00Z",
+                    "modifiedTime": "1970-01-01T00:00Z"
+                }
+            ],
+            "@id": "_:content-20_autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "source": "_:content-20_autopsy.db",
+            "target": "_:content-1_autopsy.db",
+            "kindOfRelationship": "contained-within",
+            "isDirectional": true,
+            "@id": "_:31d7f830-a55b-45cd-be18-c21ea3fd7438",
+            "@type": "Relationship"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "fullValue": "PortableCaseFiles\\Image\\22-1614968517869.jpg",
+                    "@type": "URL"
+                }
+            ],
+            "@id": "_:91cea021-e81b-4682-aa07-6d7bb7fdfeda",
+            "@type": "Trace"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "sizeInBytes": 27475,
+                    "mimeType": "image/jpeg",
+                    "hash": [
+                        {
+                            "hashMethod": "MD5",
+                            "hashValue": "c9ce9a0a6161ad480bde77dd7d6d3d90",
+                            "@type": "Hash"
+                        }
+                    ],
+                    "dataPayloadReferenceUrl": "_:91cea021-e81b-4682-aa07-6d7bb7fdfeda",
+                    "@type": "ContentData"
+                },
+                {
+                    "accessedTime": "1970-01-01T00:00Z",
+                    "extension": "jpg",
+                    "fileName": "1614968517869.jpg",
+                    "filePath": "/Phone Images/s_d_QqSJlTpa0coF_LyNUMOHGfO76TFJ_-Phone Image/Phone Image/AdvancedLogical 01/Images/1614968517869.jpg",
+                    "isDirectory": false,
+                    "sizeInBytes": 27475,
+                    "@type": "File",
+                    "createdTime": "1970-01-01T00:00Z",
+                    "modifiedTime": "1970-01-01T00:00Z"
+                }
+            ],
+            "@id": "_:content-22_autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "source": "_:content-22_autopsy.db",
+            "target": "_:content-1_autopsy.db",
+            "kindOfRelationship": "contained-within",
+            "isDirectional": true,
+            "@id": "_:5c3d425f-99c5-400b-ad78-5e4c0c658cc5",
+            "@type": "Relationship"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "fullValue": "PortableCaseFiles\\Image\\24-1615132526551.jpg",
+                    "@type": "URL"
+                }
+            ],
+            "@id": "_:1c6f6ec5-89fe-4811-975e-3e63f119f033",
+            "@type": "Trace"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "sizeInBytes": 33949,
+                    "mimeType": "image/jpeg",
+                    "hash": [
+                        {
+                            "hashMethod": "MD5",
+                            "hashValue": "5d6e8506f537711cc303a5e8ef6c48f9",
+                            "@type": "Hash"
+                        }
+                    ],
+                    "dataPayloadReferenceUrl": "_:1c6f6ec5-89fe-4811-975e-3e63f119f033",
+                    "@type": "ContentData"
+                },
+                {
+                    "accessedTime": "1970-01-01T00:00Z",
+                    "extension": "jpg",
+                    "fileName": "1615132526551.jpg",
+                    "filePath": "/Phone Images/s_d_QqSJlTpa0coF_LyNUMOHGfO76TFJ_-Phone Image/Phone Image/AdvancedLogical 01/Images/1615132526551.jpg",
+                    "isDirectory": false,
+                    "sizeInBytes": 33949,
+                    "@type": "File",
+                    "createdTime": "1970-01-01T00:00Z",
+                    "modifiedTime": "1970-01-01T00:00Z"
+                }
+            ],
+            "@id": "_:content-24_autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "source": "_:content-24_autopsy.db",
+            "target": "_:content-1_autopsy.db",
+            "kindOfRelationship": "contained-within",
+            "isDirectional": true,
+            "@id": "_:476d6703-610e-46e2-afd7-18bd1bae073b",
+            "@type": "Relationship"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "fullValue": "PortableCaseFiles\\Image\\26-1615145608870.jpg",
+                    "@type": "URL"
+                }
+            ],
+            "@id": "_:087ff3bd-9b99-49e2-95e9-80e8db01dd57",
+            "@type": "Trace"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "sizeInBytes": 22380,
+                    "mimeType": "image/jpeg",
+                    "hash": [
+                        {
+                            "hashMethod": "MD5",
+                            "hashValue": "69784d528f8bbed4ee95638331516b9c",
+                            "@type": "Hash"
+                        }
+                    ],
+                    "dataPayloadReferenceUrl": "_:087ff3bd-9b99-49e2-95e9-80e8db01dd57",
+                    "@type": "ContentData"
+                },
+                {
+                    "accessedTime": "1970-01-01T00:00Z",
+                    "extension": "jpg",
+                    "fileName": "1615145608870.jpg",
+                    "filePath": "/Phone Images/s_d_QqSJlTpa0coF_LyNUMOHGfO76TFJ_-Phone Image/Phone Image/AdvancedLogical 01/Images/1615145608870.jpg",
+                    "isDirectory": false,
+                    "sizeInBytes": 22380,
+                    "@type": "File",
+                    "createdTime": "1970-01-01T00:00Z",
+                    "modifiedTime": "1970-01-01T00:00Z"
+                }
+            ],
+            "@id": "_:content-26_autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "source": "_:content-26_autopsy.db",
+            "target": "_:content-1_autopsy.db",
+            "kindOfRelationship": "contained-within",
+            "isDirectional": true,
+            "@id": "_:b4146bff-f568-45c3-bf42-51b6adbe3502",
+            "@type": "Relationship"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "fullValue": "PortableCaseFiles\\Image\\19-1614891535340.jpg",
+                    "@type": "URL"
+                }
+            ],
+            "@id": "_:57c48d75-2fee-43b6-a1ea-0ae703347a3f",
+            "@type": "Trace"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "sizeInBytes": 29223,
+                    "mimeType": "image/jpeg",
+                    "hash": [
+                        {
+                            "hashMethod": "MD5",
+                            "hashValue": "16f1dbe7bc9dd2ae59c4913014600709",
+                            "@type": "Hash"
+                        }
+                    ],
+                    "dataPayloadReferenceUrl": "_:57c48d75-2fee-43b6-a1ea-0ae703347a3f",
+                    "@type": "ContentData"
+                },
+                {
+                    "accessedTime": "1970-01-01T00:00Z",
+                    "extension": "jpg",
+                    "fileName": "1614891535340.jpg",
+                    "filePath": "/Phone Images/s_d_QqSJlTpa0coF_LyNUMOHGfO76TFJ_-Phone Image/Phone Image/AdvancedLogical 01/Images/1614891535340.jpg",
+                    "isDirectory": false,
+                    "sizeInBytes": 29223,
+                    "@type": "File",
+                    "createdTime": "1970-01-01T00:00Z",
+                    "modifiedTime": "1970-01-01T00:00Z"
+                }
+            ],
+            "@id": "_:content-19_autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "source": "_:content-19_autopsy.db",
+            "target": "_:content-1_autopsy.db",
+            "kindOfRelationship": "contained-within",
+            "isDirectional": true,
+            "@id": "_:fc1db033-0e4e-4f26-a2dc-e877b84ea9b9",
+            "@type": "Relationship"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "fullValue": "PortableCaseFiles\\Image\\21-1614968427325.jpg",
+                    "@type": "URL"
+                }
+            ],
+            "@id": "_:b2cd5d56-f1e7-41e1-9226-b813196dafa1",
+            "@type": "Trace"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "sizeInBytes": 11950,
+                    "mimeType": "image/jpeg",
+                    "hash": [
+                        {
+                            "hashMethod": "MD5",
+                            "hashValue": "42b6e92d5f7b482e343371d9ad9fc383",
+                            "@type": "Hash"
+                        }
+                    ],
+                    "dataPayloadReferenceUrl": "_:b2cd5d56-f1e7-41e1-9226-b813196dafa1",
+                    "@type": "ContentData"
+                },
+                {
+                    "accessedTime": "1970-01-01T00:00Z",
+                    "extension": "jpg",
+                    "fileName": "1614968427325.jpg",
+                    "filePath": "/Phone Images/s_d_QqSJlTpa0coF_LyNUMOHGfO76TFJ_-Phone Image/Phone Image/AdvancedLogical 01/Images/1614968427325.jpg",
+                    "isDirectory": false,
+                    "sizeInBytes": 11950,
+                    "@type": "File",
+                    "createdTime": "1970-01-01T00:00Z",
+                    "modifiedTime": "1970-01-01T00:00Z"
+                }
+            ],
+            "@id": "_:content-21_autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "source": "_:content-21_autopsy.db",
+            "target": "_:content-1_autopsy.db",
+            "kindOfRelationship": "contained-within",
+            "isDirectional": true,
+            "@id": "_:e6d1771b-6197-457f-bfb3-a9944f39ea7b",
+            "@type": "Relationship"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "fullValue": "PortableCaseFiles\\Image\\23-1614968677683.jpg",
+                    "@type": "URL"
+                }
+            ],
+            "@id": "_:1873c49e-59fc-4237-9b54-3b879a0894a8",
+            "@type": "Trace"
+        },
+        {
+            "hasPropertyBundle": [
+                {
+                    "sizeInBytes": 20032,
+                    "mimeType": "image/jpeg",
+                    "hash": [
+                        {
+                            "hashMethod": "MD5",
+                            "hashValue": "faf4bbbdc406340c45634fb1933a6325",
+                            "@type": "Hash"
+                        }
+                    ],
+                    "dataPayloadReferenceUrl": "_:1873c49e-59fc-4237-9b54-3b879a0894a8",
+                    "@type": "ContentData"
+                },
+                {
+                    "accessedTime": "1970-01-01T00:00Z",
+                    "extension": "jpg",
+                    "fileName": "1614968677683.jpg",
+                    "filePath": "/Phone Images/s_d_QqSJlTpa0coF_LyNUMOHGfO76TFJ_-Phone Image/Phone Image/AdvancedLogical 01/Images/1614968677683.jpg",
+                    "isDirectory": false,
+                    "sizeInBytes": 20032,
+                    "@type": "File",
+                    "createdTime": "1970-01-01T00:00Z",
+                    "modifiedTime": "1970-01-01T00:00Z"
+                }
+            ],
+            "@id": "_:content-23_autopsy.db",
+            "@type": "Trace"
+        },
+        {
+            "source": "_:content-23_autopsy.db",
+            "target": "_:content-1_autopsy.db",
+            "kindOfRelationship": "contained-within",
+            "isDirectional": true,
+            "@id": "_:5590e63a-714a-426f-bf74-67cae17b322d",
+            "@type": "Relationship"
+        }
+    ]
+}

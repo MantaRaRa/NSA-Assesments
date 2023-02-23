@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>5.0</SchemaVersion>
+  <CreatedDate>2023/01/18 23:06:03 (EST)</CreatedDate>
+  <ModifiedDate>2023/01/18 23:06:03 (EST)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.19.3</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.19.3</SavedByAutopsyVersion>
+  <Case>
+    <Name>Digital Forensics Summative Assessment (Portable)</Name>
+    <DisplayName>Digital Forensics Summative Assessment (Portable)</DisplayName>
+    <Number>1</Number>
+    <Examiner>Von VanMany</Examiner>
+    <ExaminerPhone>606-548-2513</ExaminerPhone>
+    <ExaminerEmail>vonvanmany@DigitalForensics.com</ExaminerEmail>
+    <CaseNotes>Cell Phone and computerImages </CaseNotes>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <OriginalCase>
+    <CreatedDate>2023/01/18 22:48:04 (EST)</CreatedDate>
+    <Case>
+      <Name>digital_forensics_summative_assessment_20230118_224804</Name>
+      <DisplayName>Digital Forensics Summative Assessment</DisplayName>
+      <Number>1</Number>
+      <Examiner>Von VanMany</Examiner>
+      <ExaminerPhone>606-548-2513</ExaminerPhone>
+      <ExaminerEmail>vonvanmany@DigitalForensics.com</ExaminerEmail>
+      <CaseNotes>Cell Phone and computerImages </CaseNotes>
+      <CaseType>Single-user case</CaseType>
+      <Database/>
+      <CaseDatabase>autopsy.db</CaseDatabase>
+      <TextIndex/>
+    </Case>
+  </OriginalCase>
+</AutopsyCase>
